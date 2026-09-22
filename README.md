@@ -6,10 +6,10 @@ A piano jukebox for iPad and Mac, with a phone web companion.
 
 This public repository contains product information, support and privacy pages only. The app source and release builds are private.
 
-- [Product information](https://dodgeg09-rgb.github.io/smart-recital/)
-- [Support](https://dodgeg09-rgb.github.io/smart-recital/support.html)
-- [Privacy](https://dodgeg09-rgb.github.io/smart-recital/privacy.html)
-- [Report a problem or ask a question](https://github.com/dodgeg09-rgb/smart-recital/issues)
+- [Product information](https://pstarwars2026.github.io/smart-recital/)
+- [Support](https://pstarwars2026.github.io/smart-recital/support.html)
+- [Privacy](https://pstarwars2026.github.io/smart-recital/privacy.html)
+- [Report a problem or ask a question](https://github.com/pstarwars2026/smart-recital/issues)
 
 ## Planned launch
 
