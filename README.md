@@ -13,10 +13,8 @@ This public repository contains product information, support and privacy pages o
 
 ## Planned launch
 
-Free includes 10 complete piano pieces. The one-time US $3.99 Pro upgrade includes 50 pieces total, falling notes, queues, playlists, MIDI imports and the local phone companion. Pricing outside the US will be shown by the App Store. A compatible MIDI piano is required; acoustic pianos need a supported MIDI/player-piano system.
+Free and Pro share five original piano demos. Everyone can import and play their own MIDI files. The one-time US $3.99 Pro upgrade adds full falling-note performances, queues, playlists and the local phone companion. Pricing outside the US will be shown by the App Store. A compatible MIDI piano is required; acoustic pianos need a supported MIDI/player-piano system.
 
-The separate 20-song Hindi pack at US $1.99 is planned, not included or available. Music selection and licensing for that pack remain unfinished.
-
-The included classical collection uses credited public-domain editions from the [Mutopia Project](https://www.mutopiaproject.org/). The application does not own exclusive rights to those public-domain compositions or editions.
+The launch demos are original Smart Recital pieces. Your personal MIDI imports remain in your app's local library and are not included in the public product repository.
 
 Please do not post private pairing links, receipts, account information or copyrighted MIDI files in public issues.
