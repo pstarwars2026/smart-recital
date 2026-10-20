@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy policy for Svara Capture for Android, developed by Para Star 2026.">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; base-uri 'none'; form-action 'none'">
+  <title>Svara Capture — Privacy Policy</title>
+  <style>
+    :root { color-scheme: light; font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: #222723; background: #f7f8f4; }
+    * { box-sizing: border-box; }
+    body { margin: 0; line-height: 1.65; }
+    main { max-width: 780px; margin: 0 auto; padding: 56px 24px 64px; }
+    header { padding-bottom: 24px; border-bottom: 1px solid #d8dfd6; }
+    .brand { margin: 0 0 8px; color: #376747; font-size: .82rem; font-weight: 700; letter-spacing: .13em; text-transform: uppercase; }
+    h1 { margin: 0 0 12px; font-size: clamp(2rem, 7vw, 2.85rem); line-height: 1.15; letter-spacing: -.035em; }
+    h2 { margin: 32px 0 10px; font-size: 1.2rem; line-height: 1.35; }
+    p { margin: 0 0 16px; }
+    .details { color: #505c52; font-size: .95rem; }
+    .details p { margin-bottom: 4px; }
+    a { color: #255d3b; text-decoration-thickness: 1px; text-underline-offset: 3px; overflow-wrap: anywhere; }
+    a:focus-visible { outline: 3px solid #83ae8d; outline-offset: 3px; }
+    code { font-size: .92em; background: #e9ede6; padding: 1px 4px; border-radius: 3px; }
+    footer { margin-top: 36px; padding-top: 20px; border-top: 1px solid #d8dfd6; color: #505c52; font-size: .9rem; }
+    @media (max-width: 480px) { main { padding: 36px 20px 44px; } }
+    @media print { :root { background: white; color: black; } main { max-width: none; padding: 0; } a { color: black; } }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <p class="brand">Svara Capture</p>
+      <h1>Privacy Policy</h1>
+      <div class="details">
+        <p>For Svara Capture for Android</p>
+        <p>Developer: <strong>Para Star 2026</strong></p>
+        <p>Effective date: <time datetime="2026-10-20">20 October 2026</time></p>
+        <p>Support and privacy contact: <a href="mailto:parastarwars2022@gmail.com">parastarwars2022@gmail.com</a></p>
+      </div>
+    </header>
+
+    <section aria-labelledby="audio">
+      <h2 id="audio">Audio access and permissions</h2>
+      <p>Svara Capture records direct digital playback that Android and the source application permit you to capture. You choose all permitted playback or a visible source app and approve Android’s capture consent for each session. Source selection uses Android’s app UID; apps that share a UID are captured together. Source-app policies, protected audio and Android or work-profile restrictions can prevent capture.</p>
+      <p>Android requires the <code>RECORD_AUDIO</code> permission for its playback-capture API and may describe this as microphone access. Svara Capture uses a playback-capture configuration and never opens a microphone audio source. Call and communication audio usages are not selected. The MediaProjection consent screen can mention full-screen sharing; this app does not save screenshots or screen video.</p>
+      <p>The app runs a visible foreground capture service. Optional notification permission makes recording status and the Stop action available in the notification drawer. Android may also expose capture through its system controls.</p>
+    </section>
+
+    <section aria-labelledby="local">
+      <h2 id="local">Information processed and stored locally</h2>
+      <p>The app processes captured audio on your device for the live meter, recording, playback and encoding. Original recordings are saved in the app’s private storage as lossless FLAC or WAV. Optional M4A sharing creates a lossy AAC copy while retaining the original.</p>
+      <p>Local recording metadata includes file dates and names, the chosen source label, sample rate, channel count, PCM depth, frame count, duration, encoder, signal observation and stop or error notes. Export metadata also describes the source file and generated copy. The source selector reads visible launcher-app labels, package names and Android UIDs locally so it can filter the playback source. It does not transmit this list to the developer.</p>
+    </section>
+
+    <section aria-labelledby="sharing">
+      <h2 id="sharing">Network use and sharing</h2>
+      <p>The app has no network permission, account login, advertising, analytics, tracking identifiers, cloud sync or app-operated upload service. It does not transmit your recordings or metadata to the developer.</p>
+      <p>When you explicitly choose Share, Android grants the recipient app read access to the selected original recording or M4A copy. The recipient can read its filename, size and properties contained in the audio file; the app’s separate JSON metadata files are not included in the sharing intent. That recipient can process, store or transmit the file according to its own settings and privacy practices. Sharing is your deliberate action; the app does not automatically publish recordings. Read-only sharing does not give the recipient write access to the app’s original file.</p>
+    </section>
+
+    <section aria-labelledby="retention">
+      <h2 id="retention">Retention and deletion</h2>
+      <p>Original recordings remain in private app storage until that storage is cleared or the app is uninstalled. The current app has no individual-recording deletion control. The app may automatically remove older managed M4A export copies; that cleanup does not delete the original FLAC or WAV recordings.</p>
+      <p>Clearing app storage or uninstalling removes the app’s private recordings, copies and metadata. Export recordings you want to keep first. Copies already saved or sent through a recipient app are governed separately by that destination. There is no Svara Capture account or developer cloud store to delete. The Android manifest disables app backup.</p>
+    </section>
+
+    <section aria-labelledby="handling">
+      <h2 id="handling">Data handling</h2>
+      <p>Recordings and metadata use private app storage. The app’s sharing provider accepts only supported recording and export paths and opens shared files read-only. This policy makes no claim of app-level encryption of recordings or about the security of a recipient’s network service.</p>
+    </section>
+
+    <section aria-labelledby="contact">
+      <h2 id="contact">Contact and updates</h2>
+      <p>For support or privacy questions about Svara Capture, contact Para Star 2026 at <a href="mailto:parastarwars2022@gmail.com">parastarwars2022@gmail.com</a>. This policy will be updated when the app’s data handling changes. The effective date above identifies the current policy.</p>
+    </section>
+
+    <footer>© 2026 Para Star 2026 · Svara Capture for Android</footer>
+  </main>
+</body>
+</html>
